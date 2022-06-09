@@ -1,0 +1,88 @@
+Determining if files glib/gregex.h exist failed with the following output:
+Change Dir: /home/lld/sdcv/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_bb991/fast && /usr/bin/make  -f CMakeFiles/cmTC_bb991.dir/build.make CMakeFiles/cmTC_bb991.dir/build
+make[1]: Entering directory '/home/lld/sdcv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb991.dir/HAVE_GLIB_GREGEX_H.c.o
+/usr/bin/cc.exe  -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -Wall  -o CMakeFiles/cmTC_bb991.dir/HAVE_GLIB_GREGEX_H.c.o -c /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c
+In file included from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gregex.h:25:2: error: #error "Only <glib.h> can be included directly."
+   25 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gregex.h:28,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gerror.h:23:2: error: #error "Only <glib.h> can be included directly."
+   23 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gerror.h:28,
+                 from /usr/include/glib-2.0/glib/gregex.h:28,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gquark.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gquark.h:32,
+                 from /usr/include/glib-2.0/glib/gerror.h:28,
+                 from /usr/include/glib-2.0/glib/gregex.h:28,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gtypes.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/lib/glib-2.0/include/glibconfig.h:9,
+                 from /usr/include/glib-2.0/glib/gtypes.h:32,
+                 from /usr/include/glib-2.0/glib/gquark.h:32,
+                 from /usr/include/glib-2.0/glib/gerror.h:28,
+                 from /usr/include/glib-2.0/glib/gregex.h:28,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gmacros.h:33:2: error: #error "Only <glib.h> can be included directly."
+   33 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gtypes.h:34,
+                 from /usr/include/glib-2.0/glib/gquark.h:32,
+                 from /usr/include/glib-2.0/glib/gerror.h:28,
+                 from /usr/include/glib-2.0/glib/gregex.h:28,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gversionmacros.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gregex.h:29,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gstring.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gstring.h:33,
+                 from /usr/include/glib-2.0/glib/gregex.h:29,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gunicode.h:24:2: error: #error "Only <glib.h> can be included directly."
+   24 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gstring.h:34,
+                 from /usr/include/glib-2.0/glib/gregex.h:29,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gbytes.h:26:2: error: #error "Only <glib.h> can be included directly."
+   26 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gbytes.h:30,
+                 from /usr/include/glib-2.0/glib/gstring.h:34,
+                 from /usr/include/glib-2.0/glib/gregex.h:29,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/garray.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+In file included from /usr/include/glib-2.0/glib/gstring.h:35,
+                 from /usr/include/glib-2.0/glib/gregex.h:29,
+                 from /home/lld/sdcv/CMakeFiles/CheckIncludeFiles/HAVE_GLIB_GREGEX_H.c:2:
+/usr/include/glib-2.0/glib/gutils.h:29:2: error: #error "Only <glib.h> can be included directly."
+   29 | #error "Only <glib.h> can be included directly."
+      |  ^~~~~
+make[1]: *** [CMakeFiles/cmTC_bb991.dir/build.make:78: CMakeFiles/cmTC_bb991.dir/HAVE_GLIB_GREGEX_H.c.o] Error 1
+make[1]: Leaving directory '/home/lld/sdcv/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_bb991/fast] Error 2
+
+
+Source:
+/* */
+#include <glib/gregex.h>
+
+
+int main(void){return 0;}
+

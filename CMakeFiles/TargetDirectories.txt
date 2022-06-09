@@ -1,0 +1,10 @@
+/home/lld/sdcv/CMakeFiles/lang.dir
+/home/lld/sdcv/CMakeFiles/sdcv.dir
+/home/lld/sdcv/CMakeFiles/package.dir
+/home/lld/sdcv/CMakeFiles/package_source.dir
+/home/lld/sdcv/CMakeFiles/edit_cache.dir
+/home/lld/sdcv/CMakeFiles/rebuild_cache.dir
+/home/lld/sdcv/CMakeFiles/list_install_components.dir
+/home/lld/sdcv/CMakeFiles/install.dir
+/home/lld/sdcv/CMakeFiles/install/local.dir
+/home/lld/sdcv/CMakeFiles/install/strip.dir
