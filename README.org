@@ -38,5 +38,19 @@ msgmerge -U sdcv.pot new.pot
 rm new.pot
 for i in `ls *.po`; do msgmerge -U $i sdcv.pot; done
 #+END_SRC
-* build on sys
+* build on msys
 1. 需要在 msys 上编译，编译完成放置在目录D:\msys64\usr\bin\sdcv.exe
+2. 方法
+   #+begin_example
+git clone
+pacman -S zlib-devel
+pacman -S libreadline-devel
+pacman -S glib2-devel
+
+
+cmake 
+
+make VERBOSE=1
+   #+end_example
+3. 字典下载
+   http://download.huzheng.org/zh_CN/
