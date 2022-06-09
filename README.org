@@ -39,6 +39,7 @@ rm new.pot
 for i in `ls *.po`; do msgmerge -U $i sdcv.pot; done
 #+END_SRC
 * build on msys
+forked from https://github.com/yygcode/sdcv.git
 1. 需要在 msys 上编译，编译完成放置在目录D:\msys64\usr\bin\sdcv.exe
 2. 方法
    #+begin_example
